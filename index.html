@@ -33,7 +33,29 @@
           <label for="quantity">Quantidade:</label>
           <input type="number" id="quantity" name="quantity" min="1" value="1">
           <br>
-          <button id="add-button"><a href="#" class="add">Adicionar ao Carrinho</a><a href="#" class="cart"><span></span></a></button>
+          <button id="add-button" class="cd-add-to-cart" data-price="399.99">Adicionar ao Carrinho</button>
+          <div class="cd-cart-container empty">
+            <a href="#0" class="cd-cart-trigger">
+                <ul class="count"> 
+                    <li>0</li>
+                    <li>0</li>
+                </ul> 
+            </a>
+        
+            <div class="cd-cart">
+                <div class="wrapper">
+                    <header>
+                        <h2>Cart</h2>
+                        <span class="undo">Item removido. <a href="#0">Undo</a></span>
+                    </header>
+                    
+                    <div class="body">
+                        <ul>
+                        </ul>
+                    </div>
+        
+                    <footer>
+                        <a href="#0" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
         </form>
       </div>
 </div>
