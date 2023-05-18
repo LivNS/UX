@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Vinheria</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Vinheria</title>
 </head>
 <body>
 
-    <div class="container">
+  <div class="container">
     <nav id="menu">
-        <ul>
-            <li><a href="index.html">Menu</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <input type="text" class="search-text" placeholder="Buscar">
-        </ul>
+      <ul>
+        <li><a href="index.html">Menu</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <input type="text" class="search-text" placeholder="Buscar">
+      </ul>
     </nav>
+  </div>
 
-    
-</div>   
-
-<div id="fundo">
+  <div id="fundo">
     <div class="container">
-        <img src="https://www.winebrasil.com.br/media/product/1fa/vik-milla-cala-2018-323.png" alt="Imagem do Produto" class="product-image">
-        <h2 class="product-title">Vik Milla Cala 2018</h2>
-        <p class="product-price">R$ 399,99</p>
-        <form class="purchase-form">
-          <label for="quantity">Quantidade:</label>
-          <input type="number" id="quantity" name="quantity" min="1" value="1">
-          <br>
-          <button id="add-button" class="cd-add-to-cart" data-price="399.99">Adicionar ao Carrinho</button>
-          <div class="cd-cart-container empty">
-            <a href="#0" class="cd-cart-trigger">
-                <ul class="count"> 
-                    <li>0</li>
-                    <li>0</li>
-                </ul> 
-            </a>
-        
-            <div class="cd-cart">
-                <div class="wrapper">
-                    <header>
-                        <h2>Cart</h2>
-                        <span class="undo">Item removido. <a href="#0">Undo</a></span>
-                    </header>
-                    
-                    <div class="body">
-                        <ul>
-                        </ul>
-                    </div>
-        
-                    <footer>
-                        <a href="#0" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
-        </form>
-      </div>
-</div>
+      <img src="https://www.winebrasil.com.br/media/product/1fa/vik-milla-cala-2018-323.png" alt="Imagem do Produto" class="product-image">
+      <h2 class="product-title">Vik Milla Cala 2018</h2>
+      <p class="product-price">R$ 399,99</p>
+      <form class="purchase-form">
+        <label for="quantity">Quantidade:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1">
+        <br>
+        <button id="add-button" class="cd-add-to-cart" data-price="399.99">Adicionar ao Carrinho</button>
+      </form>
+    </div>
+  </div>
 
-<div>
-	
-</div>
-<style>
+  <div class="cd-cart-container empty">
+    <a href="#0" class="cd-cart-trigger">
+      <ul class="count">
+        <li>0</li>
+        <li>0</li>
+      </ul>
+    </a>
+    <div class="cd-cart">
+      <div class="wrapper">
+        <header>
+          <h2>Cart</h2>
+          <span class="undo">Item removido. <a href="#0">Undo</a></span>
+        </header>
+        <div class="body">
+          <ul></ul>
+        </div>
+        <footer>
+          <a href="#0" class="checkout btn"><em>Checkout - R$<span>0</span></em></a>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <style>
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
   </style>
- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
- <script src="script.js"></script>
- 
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="script.js"></script>
+
 </body>
 </html>
